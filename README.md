@@ -28,15 +28,18 @@ You can install these libraries using pip:
 
 ```bash
 pip install numpy pandas missingno matplotlib seaborn scikit-learn tpot
+```
 Usage
 Clone the repository:
-bash
-Copy code
+```bash
 git clone <repository-url>
+```
 Open the Jupyter Notebook project.ipynb:
-bash
-Copy code
+```bash
 jupyter notebook project.ipynb
+```
 Follow the instructions and execute the code cells in the notebook.
+
 Contributors
+
 @solomka385
