@@ -1,11 +1,42 @@
-Reaziation Partial Dependence + eda + ML
+# Project Title
 
-Цель этой работы заключалась в том, чтобы:
+## Overview
 
-1 - Провести анализ данных (очистку, проверку на дубликаты)
-2 - Визуализировать данные с помощью EDA анализа
-3 - Разделить данные на тестовую и трйновую выборки
-4 - Обучить модели
-5 - Обучить модель  baseline, в данном случае использовалась библиотека tpot
-6 - Провести сравнение моделей, и посмотреть какие фичи важны для собственной лучшей модели и baseline
-8 - Провести локальный анализ моделей
+This project aims to analyze and predict delivery anomalies in a transportation dataset using machine learning techniques. It includes data preprocessing, feature engineering, model training, and evaluation.
+
+## File Description
+
+- `project.ipynb`: Jupyter Notebook containing the code for the project.
+- `README.md`: Markdown file providing an overview of the project and instructions.
+
+## Dependencies
+
+Ensure you have the following libraries installed:
+
+- `numpy`
+- `pandas`
+- `missingno`
+- `matplotlib`
+- `seaborn`
+- `ydata_profiling`
+- `scikit-learn`
+- `TPOT`
+- `ExtraTreesClassifier`
+- `PartialDependenceDisplay`
+
+You can install these libraries using pip:
+
+```bash
+pip install numpy pandas missingno matplotlib seaborn scikit-learn tpot
+Usage
+Clone the repository:
+bash
+Copy code
+git clone <repository-url>
+Open the Jupyter Notebook project.ipynb:
+bash
+Copy code
+jupyter notebook project.ipynb
+Follow the instructions and execute the code cells in the notebook.
+Contributors
+@solomka385
